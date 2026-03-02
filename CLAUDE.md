@@ -45,11 +45,17 @@ touch drafts/new-skill/SKILL.md
 mv drafts/new-skill skills/
 ```
 
-### 4. 문서 업데이트
+### 4. **스킬 설치 (중요!)**
+```bash
+ln -s "/Users/moon_yujeong/claude_project/claude-skills/skills/new-skill" ~/.claude/skills/new-skill
+```
+⚠️ 이 단계를 빠뜨리면 `/스킬명` 커맨드가 작동하지 않습니다!
+
+### 5. 문서 업데이트
 - README.md에 스킬 추가
 - learnings.md에 교훈 기록
 
-### 5. Git 저장
+### 6. Git 저장
 ```bash
 git add .
 git commit -m "Add new-skill"
