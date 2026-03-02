@@ -1,0 +1,10 @@
+# 테스트 결과
+tests/**/outputs/
+tests/**/*.log
+
+# 임시 파일
+*.tmp
+.DS_Store
+
+# 작업 중인 초안 (선택적으로 커밋)
+drafts/temp/
